@@ -1,0 +1,46 @@
+body {
+width: 100%; /* Largura de 100% da tela */ 
+text-align: center;
+font-family: monospace;
+margin-top: 50px; 
+color: white; /* cor da letra */
+user-select: none; /* Seleção do usuário: desligada (evita o usuário de copiar o texto) */
+}
+
+#geral {
+    width: 500px; /* Largura da caixa */
+    background-color: rgb(0, 102, 255);
+    padding: 20px; /* Margem interna  */
+    margin: auto; /* faz elemento ficar centralizado */
+    text-align: center;
+    border-radius: 30px;
+    min-height: 200px; /* para que a caixa não fique pequena demais */
+}
+
+
+#botao {
+    border-radius: 30px;
+    background-color: rgb(219, 146, 9);
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    cursor: pointer;
+}
+/* para quando o cursor passar por cima do botão */
+#botao:hover {
+    background-color: rgb(247, 153, 12);
+}
+/* Para quando clicar no botão */
+#botao:active {
+    background-color: rgb(255, 136, 0);
+}
+
+#tarefas {
+width: 90%;
+margin: auto;
+font-size: 20px; /* tamanho da letra */
+text-align: left;
+cursor: pointer;
+}
+
